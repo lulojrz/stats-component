@@ -116,9 +116,25 @@ body {
 #mobile{
     display: none;
 }
-@media( max-width:320px){
+
+@media (max-width:800px) {
+    .component{
+        width: 100%;
+    }
+    .titles h1{
+        padding: .5rem;
+        font-size: 1.4rem;
+    }
+    .first-list h1 {
+        padding: .5rem;
+        font-size: 1.4rem;
+
+    }
+    
+}
+@media( max-width:500px){
     .component {
-        width: 90%;
+        width: 245px;
         margin: auto;
         color: white;
         background-color: hsl(244, 38%, 16%);
@@ -167,6 +183,12 @@ body {
     #mobile{
         display: block;
     }
+    #desktop{
+        display: none;
+    }
+}
+
+
     #desktop{
         display: none;
     }
